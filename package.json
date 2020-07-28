@@ -1,0 +1,31 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "Single Page Application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shechoruiz/single-page-application-jsvanilla.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Sergio Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shechoruiz/single-page-application-jsvanilla/issues"
+  },
+  "homepage": "https://github.com/shechoruiz/single-page-application-jsvanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
